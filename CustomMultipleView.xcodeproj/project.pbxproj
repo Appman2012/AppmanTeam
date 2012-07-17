@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1D7983E15AE8C5C00FD5B89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7983D15AE8C5C00FD5B89 /* UIKit.framework */; };
+		C1D7984015AE8C5C00FD5B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7983F15AE8C5C00FD5B89 /* Foundation.framework */; };
+		C1D7984215AE8C5C00FD5B89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7984115AE8C5C00FD5B89 /* CoreGraphics.framework */; };
+		C1D7984815AE8C5C00FD5B89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D7984615AE8C5C00FD5B89 /* InfoPlist.strings */; };
+		C1D7984A15AE8C5C00FD5B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7984915AE8C5C00FD5B89 /* main.m */; };
+		C1D7984E15AE8C5C00FD5B89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7984D15AE8C5C00FD5B89 /* AppDelegate.m */; };
+		C1D7985615AE8C5D00FD5B89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7985515AE8C5D00FD5B89 /* SenTestingKit.framework */; };
+		C1D7985715AE8C5D00FD5B89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7983D15AE8C5C00FD5B89 /* UIKit.framework */; };
+		C1D7985815AE8C5D00FD5B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7983F15AE8C5C00FD5B89 /* Foundation.framework */; };
+		C1D7986015AE8C5D00FD5B89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D7985E15AE8C5D00FD5B89 /* InfoPlist.strings */; };
+		C1D7986315AE8C5D00FD5B89 /* CustomMultipleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7986215AE8C5D00FD5B89 /* CustomMultipleViewTests.m */; };
+		C1D7986E15AE8EC100FD5B89 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7986D15AE8EC100FD5B89 /* MasterViewController.m */; };
+		C1D7987115AE8EDE00FD5B89 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7987015AE8EDE00FD5B89 /* DetailViewController.m */; };
+		C1D7987415AE8EF100FD5B89 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7987315AE8EF100FD5B89 /* RootViewController.m */; };
+		C1D7988815AEA75700FD5B89 /* MultiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D7988715AEA75700FD5B89 /* MultiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1D7985915AE8C5D00FD5B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D7983015AE8C5C00FD5B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D7983815AE8C5C00FD5B89;
+			remoteInfo = CustomMultipleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1D7983915AE8C5C00FD5B89 /* CustomMultipleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMultipleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D7983D15AE8C5C00FD5B89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1D7983F15AE8C5C00FD5B89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1D7984115AE8C5C00FD5B89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1D7984515AE8C5C00FD5B89 /* CustomMultipleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomMultipleView-Info.plist"; sourceTree = "<group>"; };
+		C1D7984715AE8C5C00FD5B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1D7984915AE8C5C00FD5B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1D7984B15AE8C5C00FD5B89 /* CustomMultipleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomMultipleView-Prefix.pch"; sourceTree = "<group>"; };
+		C1D7984C15AE8C5C00FD5B89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1D7984D15AE8C5C00FD5B89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1D7985415AE8C5D00FD5B89 /* CustomMultipleViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMultipleViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D7985515AE8C5D00FD5B89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1D7985D15AE8C5D00FD5B89 /* CustomMultipleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomMultipleViewTests-Info.plist"; sourceTree = "<group>"; };
+		C1D7985F15AE8C5D00FD5B89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1D7986115AE8C5D00FD5B89 /* CustomMultipleViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMultipleViewTests.h; sourceTree = "<group>"; };
+		C1D7986215AE8C5D00FD5B89 /* CustomMultipleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMultipleViewTests.m; sourceTree = "<group>"; };
+		C1D7986C15AE8EC100FD5B89 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C1D7986D15AE8EC100FD5B89 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C1D7986F15AE8EDE00FD5B89 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C1D7987015AE8EDE00FD5B89 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C1D7987215AE8EF100FD5B89 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C1D7987315AE8EF100FD5B89 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C1D7988615AEA75700FD5B89 /* MultiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiViewController.h; sourceTree = "<group>"; };
+		C1D7988715AEA75700FD5B89 /* MultiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D7983615AE8C5C00FD5B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7983E15AE8C5C00FD5B89 /* UIKit.framework in Frameworks */,
+				C1D7984015AE8C5C00FD5B89 /* Foundation.framework in Frameworks */,
+				C1D7984215AE8C5C00FD5B89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D7985015AE8C5D00FD5B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7985615AE8C5D00FD5B89 /* SenTestingKit.framework in Frameworks */,
+				C1D7985715AE8C5D00FD5B89 /* UIKit.framework in Frameworks */,
+				C1D7985815AE8C5D00FD5B89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D7982E15AE8C5C00FD5B89 = {
+			isa = PBXGroup;
+			children = (
+				C1D7988515AEA6EB00FD5B89 /* MultipleView */,
+				C1D7984315AE8C5C00FD5B89 /* CustomMultipleView */,
+				C1D7985B15AE8C5D00FD5B89 /* CustomMultipleViewTests */,
+				C1D7983C15AE8C5C00FD5B89 /* Frameworks */,
+				C1D7983A15AE8C5C00FD5B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D7983A15AE8C5C00FD5B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7983915AE8C5C00FD5B89 /* CustomMultipleView.app */,
+				C1D7985415AE8C5D00FD5B89 /* CustomMultipleViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D7983C15AE8C5C00FD5B89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7983D15AE8C5C00FD5B89 /* UIKit.framework */,
+				C1D7983F15AE8C5C00FD5B89 /* Foundation.framework */,
+				C1D7984115AE8C5C00FD5B89 /* CoreGraphics.framework */,
+				C1D7985515AE8C5D00FD5B89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D7984315AE8C5C00FD5B89 /* CustomMultipleView */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7984C15AE8C5C00FD5B89 /* AppDelegate.h */,
+				C1D7984D15AE8C5C00FD5B89 /* AppDelegate.m */,
+				C1D7987215AE8EF100FD5B89 /* RootViewController.h */,
+				C1D7987315AE8EF100FD5B89 /* RootViewController.m */,
+				C1D7986C15AE8EC100FD5B89 /* MasterViewController.h */,
+				C1D7986D15AE8EC100FD5B89 /* MasterViewController.m */,
+				C1D7986F15AE8EDE00FD5B89 /* DetailViewController.h */,
+				C1D7987015AE8EDE00FD5B89 /* DetailViewController.m */,
+				C1D7984415AE8C5C00FD5B89 /* Supporting Files */,
+			);
+			path = CustomMultipleView;
+			sourceTree = "<group>";
+		};
+		C1D7984415AE8C5C00FD5B89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7984515AE8C5C00FD5B89 /* CustomMultipleView-Info.plist */,
+				C1D7984615AE8C5C00FD5B89 /* InfoPlist.strings */,
+				C1D7984915AE8C5C00FD5B89 /* main.m */,
+				C1D7984B15AE8C5C00FD5B89 /* CustomMultipleView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1D7985B15AE8C5D00FD5B89 /* CustomMultipleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7986115AE8C5D00FD5B89 /* CustomMultipleViewTests.h */,
+				C1D7986215AE8C5D00FD5B89 /* CustomMultipleViewTests.m */,
+				C1D7985C15AE8C5D00FD5B89 /* Supporting Files */,
+			);
+			path = CustomMultipleViewTests;
+			sourceTree = "<group>";
+		};
+		C1D7985C15AE8C5D00FD5B89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7985D15AE8C5D00FD5B89 /* CustomMultipleViewTests-Info.plist */,
+				C1D7985E15AE8C5D00FD5B89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1D7988515AEA6EB00FD5B89 /* MultipleView */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7988615AEA75700FD5B89 /* MultiViewController.h */,
+				C1D7988715AEA75700FD5B89 /* MultiViewController.m */,
+			);
+			name = MultipleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D7983815AE8C5C00FD5B89 /* CustomMultipleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D7986615AE8C5D00FD5B89 /* Build configuration list for PBXNativeTarget "CustomMultipleView" */;
+			buildPhases = (
+				C1D7983515AE8C5C00FD5B89 /* Sources */,
+				C1D7983615AE8C5C00FD5B89 /* Frameworks */,
+				C1D7983715AE8C5C00FD5B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomMultipleView;
+			productName = CustomMultipleView;
+			productReference = C1D7983915AE8C5C00FD5B89 /* CustomMultipleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1D7985315AE8C5D00FD5B89 /* CustomMultipleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D7986915AE8C5D00FD5B89 /* Build configuration list for PBXNativeTarget "CustomMultipleViewTests" */;
+			buildPhases = (
+				C1D7984F15AE8C5D00FD5B89 /* Sources */,
+				C1D7985015AE8C5D00FD5B89 /* Frameworks */,
+				C1D7985115AE8C5D00FD5B89 /* Resources */,
+				C1D7985215AE8C5D00FD5B89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D7985A15AE8C5D00FD5B89 /* PBXTargetDependency */,
+			);
+			name = CustomMultipleViewTests;
+			productName = CustomMultipleViewTests;
+			productReference = C1D7985415AE8C5D00FD5B89 /* CustomMultipleViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D7983015AE8C5C00FD5B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C1D7983315AE8C5C00FD5B89 /* Build configuration list for PBXProject "CustomMultipleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1D7982E15AE8C5C00FD5B89;
+			productRefGroup = C1D7983A15AE8C5C00FD5B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D7983815AE8C5C00FD5B89 /* CustomMultipleView */,
+				C1D7985315AE8C5D00FD5B89 /* CustomMultipleViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1D7983715AE8C5C00FD5B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7984815AE8C5C00FD5B89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D7985115AE8C5D00FD5B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7986015AE8C5D00FD5B89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1D7985215AE8C5D00FD5B89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D7983515AE8C5C00FD5B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7984A15AE8C5C00FD5B89 /* main.m in Sources */,
+				C1D7984E15AE8C5C00FD5B89 /* AppDelegate.m in Sources */,
+				C1D7986E15AE8EC100FD5B89 /* MasterViewController.m in Sources */,
+				C1D7987115AE8EDE00FD5B89 /* DetailViewController.m in Sources */,
+				C1D7987415AE8EF100FD5B89 /* RootViewController.m in Sources */,
+				C1D7988815AEA75700FD5B89 /* MultiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D7984F15AE8C5D00FD5B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D7986315AE8C5D00FD5B89 /* CustomMultipleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1D7985A15AE8C5D00FD5B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D7983815AE8C5C00FD5B89 /* CustomMultipleView */;
+			targetProxy = C1D7985915AE8C5D00FD5B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1D7984615AE8C5C00FD5B89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D7984715AE8C5C00FD5B89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1D7985E15AE8C5D00FD5B89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D7985F15AE8C5D00FD5B89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1D7986415AE8C5D00FD5B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C1D7986515AE8C5D00FD5B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1D7986715AE8C5D00FD5B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMultipleView/CustomMultipleView-Prefix.pch";
+				INFOPLIST_FILE = "CustomMultipleView/CustomMultipleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1D7986815AE8C5D00FD5B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMultipleView/CustomMultipleView-Prefix.pch";
+				INFOPLIST_FILE = "CustomMultipleView/CustomMultipleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1D7986A15AE8C5D00FD5B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomMultipleView.app/CustomMultipleView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMultipleView/CustomMultipleView-Prefix.pch";
+				INFOPLIST_FILE = "CustomMultipleViewTests/CustomMultipleViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C1D7986B15AE8C5D00FD5B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomMultipleView.app/CustomMultipleView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomMultipleView/CustomMultipleView-Prefix.pch";
+				INFOPLIST_FILE = "CustomMultipleViewTests/CustomMultipleViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D7983315AE8C5C00FD5B89 /* Build configuration list for PBXProject "CustomMultipleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D7986415AE8C5D00FD5B89 /* Debug */,
+				C1D7986515AE8C5D00FD5B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D7986615AE8C5D00FD5B89 /* Build configuration list for PBXNativeTarget "CustomMultipleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D7986715AE8C5D00FD5B89 /* Debug */,
+				C1D7986815AE8C5D00FD5B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1D7986915AE8C5D00FD5B89 /* Build configuration list for PBXNativeTarget "CustomMultipleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D7986A15AE8C5D00FD5B89 /* Debug */,
+				C1D7986B15AE8C5D00FD5B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1D7983015AE8C5C00FD5B89 /* Project object */;
+}
